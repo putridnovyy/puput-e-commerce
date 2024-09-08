@@ -23,7 +23,6 @@
                     <span class="logo-title">Puput</span>
                     <span class="logo-subtitle">Electronic</span>
                 </div>
-
             </a>
             <button class="sidebar-toggle transparent-btn" title="Menu" type="button">
                 <span class="sr-only">Toggle menu</span>
@@ -36,22 +35,13 @@
                     <a class="active" href="/"><span class="icon home" aria-hidden="true"></span>Dashboard</a>
                 </li>
                 <li>
-                    <a class="show-cat-btn" href="##">
-                        <span class="icon document" aria-hidden="true"></span>Product
-                        <span class="category__btn transparent-btn" title="Open list">
-                            <span class="sr-only">Open list</span>
-                            <span class="icon arrow-down" aria-hidden="true"></span>
-                        </span>
-                    </a>
-                    <ul class="cat-sub-menu">
-                        <li>
-                            <a href="posts.html">All Posts</a>
+                            <a class="active" href="##">
+                            <span class="icon document" aria-hidden="true"></span>Products
+                            </a>
+                            <ul class="cat-sub-menu">
+                            </ul>
                         </li>
                         <li>
-                            <a href="new-post.html">Add new post</a>
-                        </li>
-                    </ul>
-                </li>
                 <li>
                     <a class="show-cat-btn" href="##"><span class="icon folder" aria-hidden="true"></span>User</a>
                 </li>
@@ -85,22 +75,6 @@
         <input type="text" placeholder="Enter keywords ..." required>
       </div>
     </div>
-    <div class="main-nav-end">
-      <button class="sidebar-toggle transparent-btn" title="Menu" type="button">
-        <span class="sr-only">Toggle menu</span>
-        <span class="icon menu-toggle--gray" aria-hidden="true"></span>
-      </button>
-      <div class="lang-switcher-wrapper">
-        <button class="lang-switcher transparent-btn" type="button">
-          EN
-          <i data-feather="chevron-down" aria-hidden="true"></i>
-        </button>
-        <ul class="lang-menu dropdown">
-          <li><a href="##">English</a></li>
-          <li><a href="##">French</a></li>
-          <li><a href="##">Uzbek</a></li>
-        </ul>
-      </div>
       <button class="theme-switcher gray-circle-btn" type="button" title="Switch theme">
         <span class="sr-only">Switch theme</span>
         <i class="sun-icon" data-feather="sun" aria-hidden="true"></i>
@@ -118,45 +92,34 @@
                 <i data-feather="check"></i>
               </div>
               <div class="notification-dropdown-text">
-                <span class="notification-dropdown__title">System just updated</span>
-                <span class="notification-dropdown__subtitle">The system has been successfully upgraded. Read more
-                  here.</span>
+                <span class="notification-dropdown__title">New Order</span>
+                   <span class="notification-dropdown__subtitle">Some product have been sold.</span>
               </div>
-            </a>
-          </li>
-          <li>
+             </a>
+       </li>
+        <li>
             <a href="##">
-              <div class="notification-dropdown-icon danger">
-                <i data-feather="info" aria-hidden="true"></i>
-              </div>
-              <div class="notification-dropdown-text">
-                <span class="notification-dropdown__title">The cache is full!</span>
-                <span class="notification-dropdown__subtitle">Unnecessary caches take up a lot of memory space and
-                  interfere ...</span>
-              </div>
+           <div class="notification-dropdown-icon info">
+           <i data-feather="check" aria-hidden="true"></i>
+           </div>
+           <div class="notification-dropdown-text">
+            <span class="notification-dropdown__title">New Subscriber here!</span>
+            <span class="notification-dropdown__subtitle">A new subscriber has subscribed.</span>
+           </div>
             </a>
           </li>
-          <li>
-            <a href="##">
-              <div class="notification-dropdown-icon info">
-                <i data-feather="check" aria-hidden="true"></i>
-              </div>
-              <div class="notification-dropdown-text">
-                <span class="notification-dropdown__title">New Subscriber here!</span>
-                <span class="notification-dropdown__subtitle">A new subscriber has subscribed.</span>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="link-to-page" href="##">Go to Notifications page</a>
-          </li>
-        </ul>
-      </div>
+            <li>
+              <a class="link-to-page" href="##">Go to Notifications page</a>
+            </li>
+              </ul>
+          </div>
       <div class="nav-user-wrapper">
         <button href="##" class="nav-user-btn dropdown-btn" title="My profile" type="button">
           <span class="sr-only">My profile</span>
           <span class="nav-user-img">
-            <picture><source srcset="./img/avatar/avatar-illustrated-02.webp" type="image/webp"><img src="./img/avatar/avatar-illustrated-02.png" alt="User name"></picture>
+          <picture>
+            <source srcset="../bootstrap/img/avatar/avatar-illustrated-01.webp" type="image/webp"><img src="../bootstrap/img/avatar/avatar-illustrated-01.png" alt="User name">
+          </picture>
           </span>
         </button>
         <ul class="users-item-dropdown nav-user-dropdown dropdown">
@@ -395,40 +358,40 @@
                 <li>
                   <a href="##">
                     <div class="top-cat-list__title">
-                      Lifestyle <span>8.2k</span>
+                      Laptop<span>8.2k</span>
                     </div>
                     <div class="top-cat-list__subtitle">
-                      Dailiy lifestyle articles <span class="purple">+472</span>
+                      Asus TUF Laptop <span class="purple">+472</span>
                     </div>
                   </a>
                 </li>
                 <li>
                   <a href="##">
                     <div class="top-cat-list__title">
-                      Tutorials <span>8.2k</span>
+                      Laptop<span>8.2k</span>
                     </div>
                     <div class="top-cat-list__subtitle">
-                      Coding tutorials <span class="blue">+472</span>
+                      Lenovo Legion 5<span class="blue">+472</span>
                     </div>
                   </a>
                 </li>
                 <li>
                   <a href="##">
                     <div class="top-cat-list__title">
-                      Technology <span>8.2k</span>
+                      Laptop<span>8.2k</span>
                     </div>
                     <div class="top-cat-list__subtitle">
-                      Dailiy technology articles <span class="danger">+472</span>
+                      MSI Gaming Laptop<span class="danger">+472</span>
                     </div>
                   </a>
                 </li>
                 <li>
                   <a href="##">
                     <div class="top-cat-list__title">
-                      UX design <span>8.2k</span>
+                      Laptop<span>8.2k</span>
                     </div>
                     <div class="top-cat-list__subtitle">
-                      UX design tips <span class="success">+472</span>
+                      Razer Glade 15 Laptop<span class="success">+472</span>
                     </div>
                   </a>
                 </li>
@@ -442,8 +405,8 @@
     <footer class="footer">
   <div class="container footer--flex">
     <div class="footer-start">
-      <p>2021 © Elegant Dashboard - <a href="elegant-dashboard.com" target="_blank"
-          rel="noopener noreferrer">elegant-dashboard.com</a></p>
+      <p>2024 © Puput Electronic - <a href="elegant-dashboard.com" target="_blank"
+          rel="noopener noreferrer">izzy.com</a></p>
     </div>
     <ul class="footer-end">
       <li><a href="##">About</a></li>

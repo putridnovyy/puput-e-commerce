@@ -32,31 +32,21 @@
         </div>
         <div class="sidebar-body">
             <ul class="sidebar-body-menu">
-                <li>
-                    <a class="active" href="/"><span class="icon home" aria-hidden="true"></span>Dashboard</a>
+            <li>
+                    <a class="show-cat-btn" href="/"><span class="icon home" aria-hidden="true"></span>Dashboard</a>
                 </li>
                 <li>
-                    <a class="show-cat-btn" href="##">
-                        <span class="icon document" aria-hidden="true"></span>Product
-                        <span class="category__btn transparent-btn" title="Open list">
-                            <span class="sr-only">Open list</span>
-                            <span class="icon arrow-down" aria-hidden="true"></span>
-                        </span>
-                    </a>
-                    <ul class="cat-sub-menu">
-                        <li>
-                            <a href="product/posts.php">All Posts</a>
-                        </li>
-                        <li>
-                            <a href="new-post.html">Add new post</a>
-                        </li>
-                    </ul>
+                  <a class="show-cat-btn" href="##">
+                    <span class="icon document" aria-hidden="true"></span>Products
+                  </a>
+                  <ul class="cat-sub-menu">
+                 </ul>
                 </li>
                 <li>
                     <a class="show-cat-btn" href="##"><span class="icon folder" aria-hidden="true"></span>User</a>
                 </li>
                 <li>
-                    <a class="show-cat-btn" href="##">
+                    <a class="active" href="##">
                         <span class="icon image" aria-hidden="true"></span>Pesanan
                     </a>
                 </li>
@@ -90,17 +80,6 @@
         <span class="sr-only">Toggle menu</span>
         <span class="icon menu-toggle--gray" aria-hidden="true"></span>
       </button>
-      <div class="lang-switcher-wrapper">
-        <button class="lang-switcher transparent-btn" type="button">
-          EN
-          <i data-feather="chevron-down" aria-hidden="true"></i>
-        </button>
-        <ul class="lang-menu dropdown">
-          <li><a href="##">English</a></li>
-          <li><a href="##">French</a></li>
-          <li><a href="##">Uzbek</a></li>
-        </ul>
-      </div>
       <button class="theme-switcher gray-circle-btn" type="button" title="Switch theme">
         <span class="sr-only">Switch theme</span>
         <i class="sun-icon" data-feather="sun" aria-hidden="true"></i>
@@ -118,53 +97,38 @@
                 <i data-feather="check"></i>
               </div>
               <div class="notification-dropdown-text">
-                <span class="notification-dropdown__title">System just updated</span>
-                <span class="notification-dropdown__subtitle">The system has been successfully upgraded. Read more
-                  here.</span>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="##">
-              <div class="notification-dropdown-icon danger">
-                <i data-feather="info" aria-hidden="true"></i>
-              </div>
-              <div class="notification-dropdown-text">
-                <span class="notification-dropdown__title">The cache is full!</span>
-                <span class="notification-dropdown__subtitle">Unnecessary caches take up a lot of memory space and
-                  interfere ...</span>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="##">
-              <div class="notification-dropdown-icon info">
-                <i data-feather="check" aria-hidden="true"></i>
-              </div>
-              <div class="notification-dropdown-text">
-                <span class="notification-dropdown__title">New Subscriber here!</span>
-                <span class="notification-dropdown__subtitle">A new subscriber has subscribed.</span>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="link-to-page" href="##">Go to Notifications page</a>
-          </li>
-        </ul>
-      </div>
-      <div class="nav-user-wrapper">
-        <button href="##" class="nav-user-btn dropdown-btn" title="My profile" type="button">
-          <span class="sr-only">My profile</span>
-          <span class="nav-user-img">
-            <picture><source srcset="./img/avatar/avatar-illustrated-02.webp" type="image/webp"><img src="./img/avatar/avatar-illustrated-02.png" alt="User name"></picture>
-          </span>
-        </button>
-        <ul class="users-item-dropdown nav-user-dropdown dropdown">
-          <li><a href="##">
-              <i data-feather="user" aria-hidden="true"></i>
-              <span>Profile</span>
-            </a></li>
-          <li><a href="##">
+                                            <span class="notification-dropdown__title">New Order</span>
+                                            <span class="notification-dropdown__subtitle">Some product have been sold.</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="##">
+                                        <div class="notification-dropdown-icon info">
+                                            <i data-feather="check" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="notification-dropdown-text">
+                                            <span class="notification-dropdown__title">New Subscriber here!</span>
+                                            <span class="notification-dropdown__subtitle">A new subscriber has subscribed.</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="link-to-page" href="##">Go to Notifications page</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-user-wrapper">
+                            <button href="##" class="nav-user-btn dropdown-btn" title="My profile" type="button">
+                                <span class="sr-only">My profile</span>
+                                <span class="nav-user-img">
+                                    <picture>
+                                    <source srcset="../bootstrap/img/avatar/avatar-illustrated-01.webp" type="image/webp"><img src="../bootstrap/img/avatar/avatar-illustrated-01.png" alt="User name">
+                                    </picture>
+                                </span>
+                            </button>
+                            <ul class="users-item-dropdown nav-user-dropdown dropdown">
+                                <li><a href="##">
               <i data-feather="settings" aria-hidden="true"></i>
               <span>Account settings</span>
             </a></li>
@@ -180,7 +144,7 @@
     <!-- ! Main -->
     <main class="main users chart-page" id="skip-target">
       <div class="container">
-        <h2 class="main-title">Dashboard</h2>
+        <h2 class="main-title">Management Pesanan</h2>
         <div class="row">
                             <div class="col-12">
                                 <div class="card">
@@ -191,10 +155,8 @@
                                                 <th>Order ID</th>
                                                 <th>Amount</th>
                                                 <th>Order Date</th>
-                                                <th>Payment</th>
                                                 <th>Billing Name</th>
                                                 <th>Status</th>
-                                                <th>Action</th>
                                             </tr>
                                             </thead>
                                             <tbody>
@@ -204,7 +166,6 @@
                                                     </td>
                                                     <td>$45</td>
                                                     <td>Jul 20, 2019</td>
-                                                    <td><i class="fab fa-cc-visa text-muted font-size-20"></i> </td>
                                                     <td>Herbert C. Patton</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -218,7 +179,6 @@
                                                     </td>
                                                     <td>$521</td>
                                                     <td>Jul 18, 2019</td>
-                                                    <td><i class="fab fa-cc-mastercard text-muted font-size-20"></i> </td>
                                                     <td>Mathias N. Klausen</td>
                                                     <td><span class="badge bg-warning-subtle text-warning ">Refund</span></td>
                                                     <td>
@@ -232,7 +192,6 @@
                                                     </td>
                                                     <td>$241</td>
                                                     <td>July 14, 2019</td>
-                                                    <td><i class="fab fa-cc-paypal text-muted font-size-20"></i> </td>
                                                     <td>Nikolaj S. Henriksen</td>
                                                     <td><span class="badge bg-warning-subtle text-warning ">Refund</span></td>
                                                     <td>
@@ -246,7 +205,6 @@
                                                     </td>
                                                     <td>$541.34</td>
                                                     <td>Jul 15, 2019</td>
-                                                    <td><i class="fab fa-cc-paypal text-muted font-size-20"></i> </td>
                                                     <td>Kasper S. Jessen</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -260,7 +218,6 @@
                                                     </td>
                                                     <td>$22</td>
                                                     <td>Jul 11, 2019</td>
-                                                    <td><i class="fab fa-cc-amex text-muted font-size-20"></i> </td>
                                                     <td>Lasse C. Overgaard</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -274,7 +231,6 @@
                                                     </td>
                                                     <td>$1,541</td>
                                                     <td>Jul 10, 2019</td>
-                                                    <td><i class="fab fa-cc-mastercard text-muted font-size-20"></i> </td>
                                                     <td>Johan E. Knudsen</td>
                                                     <td><span class="badge bg-danger-subtle text-danger ">Chargeback</span></td>
                                                     <td>
@@ -288,7 +244,6 @@
                                                     </td>
                                                     <td>$54</td>
                                                     <td>Jul 09, 2019</td>
-                                                    <td><i class="fab fa-cc-visa text-muted font-size-20"></i> </td>
                                                     <td>Herbert C. Patton</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -302,7 +257,6 @@
                                                     </td>
                                                     <td>$845</td>
                                                     <td>Jul 08, 2019</td>
-                                                    <td><i class="fab fa-cc-discover text-muted font-size-20"></i> </td>
                                                     <td>Mathias N. Klausen</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -316,7 +270,6 @@
                                                     </td>
                                                     <td>$421</td>
                                                     <td>Jul 08, 2019</td>
-                                                    <td><i class="fab fa-cc-paypal text-muted font-size-20"></i> </td>
                                                     <td>Nikolaj S. Henriksen</td>
                                                     <td><span class="badge bg-danger-subtle text-danger ">Chargeback</span></td>
                                                     <td>
@@ -330,7 +283,6 @@
                                                     </td>
                                                     <td>$652</td>
                                                     <td>Jul 02, 2019</td>
-                                                    <td><i class="fab fa-cc-mastercard text-muted font-size-20"></i> </td>
                                                     <td>Lasse C. Overgaard</td>
                                                     <td><span class="badge bg-danger-subtle text-danger ">Chargeback</span></td>
                                                     <td>
@@ -344,7 +296,6 @@
                                                     </td>
                                                     <td>$45</td>
                                                     <td>Jul 20, 2019</td>
-                                                    <td><i class="fab fa-cc-visa text-muted font-size-20"></i> </td>
                                                     <td>Herbert C. Patton</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -358,7 +309,6 @@
                                                     </td>
                                                     <td>$521</td>
                                                     <td>Jul 18, 2019</td>
-                                                    <td><i class="fab fa-cc-mastercard text-muted font-size-20"></i> </td>
                                                     <td>Mathias N. Klausen</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -372,7 +322,6 @@
                                                     </td>
                                                     <td>$241</td>
                                                     <td>July 14, 2019</td>
-                                                    <td><i class="fab fa-cc-paypal text-muted font-size-20"></i> </td>
                                                     <td>Nikolaj S. Henriksen</td>
                                                     <td><span class="badge bg-danger-subtle text-danger ">Chargeback</span></td>
                                                     <td>
@@ -386,7 +335,6 @@
                                                     </td>
                                                     <td>$541.34</td>
                                                     <td>Jul 15, 2019</td>
-                                                    <td><i class="fab fa-cc-paypal text-muted font-size-20"></i> </td>
                                                     <td>Kasper S. Jessen</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -400,7 +348,6 @@
                                                     </td>
                                                     <td>$22</td>
                                                     <td>Jul 11, 2019</td>
-                                                    <td><i class="fab fa-cc-amex text-muted font-size-20"></i> </td>
                                                     <td>Lasse C. Overgaard</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -414,7 +361,6 @@
                                                     </td>
                                                     <td>$1,541</td>
                                                     <td>Jul 10, 2019</td>
-                                                    <td><i class="fab fa-cc-mastercard text-muted font-size-20"></i> </td>
                                                     <td>Johan E. Knudsen</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -428,7 +374,6 @@
                                                     </td>
                                                     <td>$54</td>
                                                     <td>Jul 09, 2019</td>
-                                                    <td><i class="fab fa-cc-visa text-muted font-size-20"></i> </td>
                                                     <td>Herbert C. Patton</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -442,7 +387,6 @@
                                                     </td>
                                                     <td>$845</td>
                                                     <td>Jul 08, 2019</td>
-                                                    <td><i class="fab fa-cc-discover text-muted font-size-20"></i> </td>
                                                     <td>Mathias N. Klausen</td>
                                                     <td><span class="badge bg-warning-subtle text-warning ">Refund</span></td>
                                                     <td>
@@ -456,7 +400,6 @@
                                                     </td>
                                                     <td>$421</td>
                                                     <td>Jul 08, 2019</td>
-                                                    <td><i class="fab fa-cc-paypal text-muted font-size-20"></i> </td>
                                                     <td>Nikolaj S. Henriksen</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -470,7 +413,6 @@
                                                     </td>
                                                     <td>$652</td>
                                                     <td>Jul 02, 2019</td>
-                                                    <td><i class="fab fa-cc-mastercard text-muted font-size-20"></i> </td>
                                                     <td>Lasse C. Overgaard</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -484,7 +426,6 @@
                                                     </td>
                                                     <td>$421</td>
                                                     <td>Jul 08, 2019</td>
-                                                    <td><i class="fab fa-cc-paypal text-muted font-size-20"></i> </td>
                                                     <td>Nikolaj S. Henriksen</td>
                                                     <td><span class="badge bg-success-subtle text-success">Paid</span></td>
                                                     <td>
@@ -506,8 +447,8 @@
     <footer class="footer">
   <div class="container footer--flex">
     <div class="footer-start">
-      <p>2021 © Elegant Dashboard - <a href="elegant-dashboard.com" target="_blank"
-          rel="noopener noreferrer">elegant-dashboard.com</a></p>
+      <p>2024 © Puput Electronic - <a href="elegant-dashboard.com" target="_blank"
+          rel="noopener noreferrer">izzy.com</a></p>
     </div>
     <ul class="footer-end">
       <li><a href="##">About</a></li>
