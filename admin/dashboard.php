@@ -116,7 +116,8 @@
                                     <a class="link-to-page" href="##">Go to Notifications page</a>
                                 </li>
                             </ul>
-                        </div>      <div class="nav-user-wrapper">
+                        </div>      
+                        <div class="nav-user-wrapper">
                             <button href="##" class="nav-user-btn dropdown-btn" title="My profile" type="button">
                                 <span class="sr-only">My profile</span>
                                 <span class="nav-user-img">
